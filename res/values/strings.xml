@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="main_play">Jugar</string>
+    <string name="main_configure">Configurar</string>
+    <string name="main_about">Acerca de</string>
+    <string name="main_score">Puntuaciones</string>
+    <string name="main_exit">Salir</string>
+    
+    <string name="about_text">\nVersión 1.0.0\nSi quieres enviar una opinión, comentario o sugerencia para mejorar la aplicación puedes hacerlo desde la página web.\nDesarrollado por Javier García\njavi@latarce.com\nwww.android.latarce.com</string>
+
+</resources>

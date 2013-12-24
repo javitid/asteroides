@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Botones.fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Localizacion" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="30dp" >
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_play" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_configure" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_about" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_score" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextoAsteroides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="26sp" />
+
+</RelativeLayout>
